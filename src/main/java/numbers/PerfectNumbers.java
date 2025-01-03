@@ -7,8 +7,8 @@ public class PerfectNumbers {
     }
 
     private int sumOfDividers(int number) {
-        int output = 0;
-        for (int i = 1; i <= number / 2; i++) {
+        int output = 1;
+        for (int i = 2; i <= number / 2; i++) {
             if (number % i == 0) {
                 output += i;
             }
